@@ -1,4 +1,3 @@
-
 main{
   background-color: #e4f0f8;
   display: flex;
@@ -8,8 +7,8 @@ main{
 }
 .sign-in-form {
  width: 50%;
- min-width: 300px;
- max-width: 500px;
+ min-width: 210px;
+ max-width: 300px;
  background-color: #fff;
  padding: 20px 40px;
  display: flex;
@@ -29,7 +28,7 @@ input:focus{
 }
 .forgot{
   position: absolute;
-  right: 220px;
+  right: 20px;
 
 }
 
@@ -42,6 +41,7 @@ input:focus{
   width: 100%;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 h4{
@@ -59,18 +59,14 @@ p a{
 
 .btn {
   position: relative;
-
   display: block;
   margin: 30px auto;
   padding: 0;
-
   overflow: hidden;
-
   border-width: 0;
   outline: none;
   border-radius: 2px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-
   background-color: #176dcc;
   color: #ecf0f1;
 
